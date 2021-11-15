@@ -86,3 +86,9 @@ for tup in tup:
 tup = (200,500,1000,2000)
 print(tup)
 
+#using if else statement in python
+var = 10
+if var == 10:
+    print("var is 10")
+else:
+    print("var is not 10")
