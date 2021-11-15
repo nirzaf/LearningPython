@@ -1,10 +1,36 @@
 print ('Hello World')
-
 x  = 10
 
-if(x > 5):
-    print ('X is greater than 10')
+#get the square of x
+y = x**2
+print (y)
 
- #Create a Loop to print the numbers from 1 to 10
-for i in range(1,11):
-    print (i)   
+#create a list of animals
+animals = ['cat', 'dog', 'rabbit']
+print(animals[1])
+
+animals[2] = 'turtle'
+print(animals)
+
+del animals[2] 
+print(animals)
+
+#create a list of vehicles with 10 elements
+vehicles = ['car', 'motorbike', 'truck', 'van', 'bus', 'lorry', 'train', 'bicycle', 'jeep', 'ship']
+
+vehicles.append('airplane')
+print(vehicles)
+
+#sort the vehicle list
+vehicles.sort()
+print(vehicles)
+
+vehicles.reverse()
+print(vehicles)
+
+#return the length of the list
+print(len(vehicles))
+
+#print all vehicle names in for loop
+for x in vehicles:
+    print(x)
